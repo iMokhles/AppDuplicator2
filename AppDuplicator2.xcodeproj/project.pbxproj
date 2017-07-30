@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432EE8F81F21694E00E3D5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE8F71F21694E00E3D5BF /* AppDelegate.swift */; };
+		432EE8FA1F21694E00E3D5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE8F91F21694E00E3D5BF /* ViewController.swift */; };
+		432EE8FD1F21694E00E3D5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432EE8FB1F21694E00E3D5BF /* Main.storyboard */; };
+		432EE8FF1F21694E00E3D5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432EE8FE1F21694E00E3D5BF /* Assets.xcassets */; };
+		432EE9021F21694E00E3D5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432EE9001F21694E00E3D5BF /* LaunchScreen.storyboard */; };
+		432EE9121F217B7100E3D5BF /* ADSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9111F217B7100E3D5BF /* ADSideMenuViewController.swift */; };
+		432EE9151F21824B00E3D5BF /* ADTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9141F21824B00E3D5BF /* ADTheme.swift */; };
+		432EE9181F2189FF00E3D5BF /* ADLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9171F2189FF00E3D5BF /* ADLaunchViewController.swift */; };
+		432EE91B1F218B8800E3D5BF /* ADLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE91A1F218B8800E3D5BF /* ADLoginView.swift */; };
+		432EE91D1F218B9600E3D5BF /* ADLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE91C1F218B9600E3D5BF /* ADLoginView.xib */; };
+		432EE9281F219AB300E3D5BF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9271F219AB300E3D5BF /* iCarousel.m */; };
+		432EE92C1F22383800E3D5BF /* ADSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE92A1F22383800E3D5BF /* ADSignupView.swift */; };
+		432EE92D1F22383800E3D5BF /* ADSignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE92B1F22383800E3D5BF /* ADSignupView.xib */; };
+		432EE92F1F22462D00E3D5BF /* ADTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE92E1F22462D00E3D5BF /* ADTextFieldCell.swift */; };
+		432EE9311F22464000E3D5BF /* ADTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE9301F22464000E3D5BF /* ADTextFieldCell.xib */; };
+		432EE9331F22551800E3D5BF /* ADHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9321F22551800E3D5BF /* ADHelper.swift */; };
+		432EE9351F22552900E3D5BF /* ADTextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9341F22552900E3D5BF /* ADTextHelper.swift */; };
+		434C78081F22C89A00A52107 /* CAConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 434C78071F22C89A00A52107 /* CAConstraintHelper.m */; };
+		43FD6C711F2E5D520003512B /* ADSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD6C701F2E5D520003512B /* ADSignupViewController.swift */; };
+		43FD6C731F2E5D730003512B /* ADLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD6C721F2E5D730003512B /* ADLoginViewController.swift */; };
+		F035C5B646559B04727CEF50 /* Pods_AppDuplicator2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219DD7A2C0CF24B440AF1BC7 /* Pods_AppDuplicator2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		219DD7A2C0CF24B440AF1BC7 /* Pods_AppDuplicator2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDuplicator2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		432EE8F41F21694E00E3D5BF /* AppDuplicator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDuplicator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		432EE8F71F21694E00E3D5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		432EE8F91F21694E00E3D5BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		432EE8FC1F21694E00E3D5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432EE8FE1F21694E00E3D5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432EE9011F21694E00E3D5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		432EE9031F21694E00E3D5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432EE9111F217B7100E3D5BF /* ADSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSideMenuViewController.swift; sourceTree = "<group>"; };
+		432EE9141F21824B00E3D5BF /* ADTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTheme.swift; sourceTree = "<group>"; };
+		432EE9171F2189FF00E3D5BF /* ADLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLaunchViewController.swift; sourceTree = "<group>"; };
+		432EE91A1F218B8800E3D5BF /* ADLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLoginView.swift; sourceTree = "<group>"; };
+		432EE91C1F218B9600E3D5BF /* ADLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADLoginView.xib; sourceTree = "<group>"; };
+		432EE9251F219AB200E3D5BF /* AppDuplicator2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDuplicator2-Bridging-Header.h"; sourceTree = "<group>"; };
+		432EE9261F219AB300E3D5BF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		432EE9271F219AB300E3D5BF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		432EE92A1F22383800E3D5BF /* ADSignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSignupView.swift; sourceTree = "<group>"; };
+		432EE92B1F22383800E3D5BF /* ADSignupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADSignupView.xib; sourceTree = "<group>"; };
+		432EE92E1F22462D00E3D5BF /* ADTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTextFieldCell.swift; sourceTree = "<group>"; };
+		432EE9301F22464000E3D5BF /* ADTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADTextFieldCell.xib; sourceTree = "<group>"; };
+		432EE9321F22551800E3D5BF /* ADHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHelper.swift; sourceTree = "<group>"; };
+		432EE9341F22552900E3D5BF /* ADTextHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTextHelper.swift; sourceTree = "<group>"; };
+		434C78061F22C89A00A52107 /* CAConstraintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAConstraintHelper.h; sourceTree = "<group>"; };
+		434C78071F22C89A00A52107 /* CAConstraintHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAConstraintHelper.m; sourceTree = "<group>"; };
+		43FD6C701F2E5D520003512B /* ADSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSignupViewController.swift; sourceTree = "<group>"; };
+		43FD6C721F2E5D730003512B /* ADLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLoginViewController.swift; sourceTree = "<group>"; };
+		5BE0D40D3E9C85C11FD5E815 /* Pods-AppDuplicator2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDuplicator2.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppDuplicator2/Pods-AppDuplicator2.release.xcconfig"; sourceTree = "<group>"; };
+		FC3C0D0D8834F677EF5672B1 /* Pods-AppDuplicator2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDuplicator2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppDuplicator2/Pods-AppDuplicator2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432EE8F11F21694E00E3D5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F035C5B646559B04727CEF50 /* Pods_AppDuplicator2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432EE8EB1F21694E00E3D5BF = {
+			isa = PBXGroup;
+			children = (
+				432EE8F61F21694E00E3D5BF /* AppDuplicator2 */,
+				432EE8F51F21694E00E3D5BF /* Products */,
+				A6EE8261DA121D323A90E5FA /* Pods */,
+				E56F9FAC3F08DA12F4CD490B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		432EE8F51F21694E00E3D5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432EE8F41F21694E00E3D5BF /* AppDuplicator2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432EE8F61F21694E00E3D5BF /* AppDuplicator2 */ = {
+			isa = PBXGroup;
+			children = (
+				432EE91E1F219A8200E3D5BF /* ObjC */,
+				432EE9131F21823800E3D5BF /* Helpers */,
+				432EE90E1F21723200E3D5BF /* Frameworks */,
+				432EE90D1F21722B00E3D5BF /* CustomViews */,
+				432EE90C1F21722400E3D5BF /* ViewControllers */,
+				432EE90B1F21721D00E3D5BF /* Signer */,
+				432EE90A1F21721600E3D5BF /* ApiHelper */,
+				432EE9091F21720700E3D5BF /* UITableViewCells */,
+				432EE8F71F21694E00E3D5BF /* AppDelegate.swift */,
+				432EE8F91F21694E00E3D5BF /* ViewController.swift */,
+				432EE8FB1F21694E00E3D5BF /* Main.storyboard */,
+				432EE8FE1F21694E00E3D5BF /* Assets.xcassets */,
+				432EE9001F21694E00E3D5BF /* LaunchScreen.storyboard */,
+				432EE9031F21694E00E3D5BF /* Info.plist */,
+			);
+			path = AppDuplicator2;
+			sourceTree = "<group>";
+		};
+		432EE9091F21720700E3D5BF /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				432EE92E1F22462D00E3D5BF /* ADTextFieldCell.swift */,
+				432EE9301F22464000E3D5BF /* ADTextFieldCell.xib */,
+			);
+			name = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		432EE90A1F21721600E3D5BF /* ApiHelper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ApiHelper;
+			sourceTree = "<group>";
+		};
+		432EE90B1F21721D00E3D5BF /* Signer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Signer;
+			sourceTree = "<group>";
+		};
+		432EE90C1F21722400E3D5BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				432EE9161F2189EB00E3D5BF /* LaunchVCs */,
+				432EE9101F217B5800E3D5BF /* SideMenu */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		432EE90D1F21722B00E3D5BF /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		432EE90E1F21723200E3D5BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		432EE9101F217B5800E3D5BF /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				432EE9111F217B7100E3D5BF /* ADSideMenuViewController.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		432EE9131F21823800E3D5BF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				432EE9141F21824B00E3D5BF /* ADTheme.swift */,
+				432EE9321F22551800E3D5BF /* ADHelper.swift */,
+				432EE9341F22552900E3D5BF /* ADTextHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		432EE9161F2189EB00E3D5BF /* LaunchVCs */ = {
+			isa = PBXGroup;
+			children = (
+				432EE9291F22380000E3D5BF /* SignupView */,
+				432EE9191F218B7500E3D5BF /* LoginView */,
+				432EE9171F2189FF00E3D5BF /* ADLaunchViewController.swift */,
+			);
+			name = LaunchVCs;
+			sourceTree = "<group>";
+		};
+		432EE9191F218B7500E3D5BF /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				432EE91A1F218B8800E3D5BF /* ADLoginView.swift */,
+				432EE91C1F218B9600E3D5BF /* ADLoginView.xib */,
+				43FD6C721F2E5D730003512B /* ADLoginViewController.swift */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		432EE91E1F219A8200E3D5BF /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				434C78091F22C8A100A52107 /* CAConstraintHelper */,
+				432EE91F1F219A9200E3D5BF /* iCarousel */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		432EE91F1F219A9200E3D5BF /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				432EE9261F219AB300E3D5BF /* iCarousel.h */,
+				432EE9271F219AB300E3D5BF /* iCarousel.m */,
+				432EE9251F219AB200E3D5BF /* AppDuplicator2-Bridging-Header.h */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		432EE9291F22380000E3D5BF /* SignupView */ = {
+			isa = PBXGroup;
+			children = (
+				432EE92A1F22383800E3D5BF /* ADSignupView.swift */,
+				432EE92B1F22383800E3D5BF /* ADSignupView.xib */,
+				43FD6C701F2E5D520003512B /* ADSignupViewController.swift */,
+			);
+			name = SignupView;
+			sourceTree = "<group>";
+		};
+		434C78091F22C8A100A52107 /* CAConstraintHelper */ = {
+			isa = PBXGroup;
+			children = (
+				434C78061F22C89A00A52107 /* CAConstraintHelper.h */,
+				434C78071F22C89A00A52107 /* CAConstraintHelper.m */,
+			);
+			name = CAConstraintHelper;
+			sourceTree = "<group>";
+		};
+		A6EE8261DA121D323A90E5FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C0D0D8834F677EF5672B1 /* Pods-AppDuplicator2.debug.xcconfig */,
+				5BE0D40D3E9C85C11FD5E815 /* Pods-AppDuplicator2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E56F9FAC3F08DA12F4CD490B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219DD7A2C0CF24B440AF1BC7 /* Pods_AppDuplicator2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432EE8F31F21694E00E3D5BF /* AppDuplicator2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432EE9061F21694E00E3D5BF /* Build configuration list for PBXNativeTarget "AppDuplicator2" */;
+			buildPhases = (
+				32F7F46A58B1BBF67EF3F0F1 /* [CP] Check Pods Manifest.lock */,
+				432EE8F01F21694E00E3D5BF /* Sources */,
+				432EE8F11F21694E00E3D5BF /* Frameworks */,
+				432EE8F21F21694E00E3D5BF /* Resources */,
+				CCD7C60D6861704E10A60397 /* [CP] Embed Pods Frameworks */,
+				4DFA5F32D50CABF5CABEA968 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppDuplicator2;
+			productName = AppDuplicator2;
+			productReference = 432EE8F41F21694E00E3D5BF /* AppDuplicator2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432EE8EC1F21694E00E3D5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iMokhles;
+				TargetAttributes = {
+					432EE8F31F21694E00E3D5BF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4XPY84P8QQ;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 432EE8EF1F21694E00E3D5BF /* Build configuration list for PBXProject "AppDuplicator2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432EE8EB1F21694E00E3D5BF;
+			productRefGroup = 432EE8F51F21694E00E3D5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432EE8F31F21694E00E3D5BF /* AppDuplicator2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432EE8F21F21694E00E3D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432EE9311F22464000E3D5BF /* ADTextFieldCell.xib in Resources */,
+				432EE9021F21694E00E3D5BF /* LaunchScreen.storyboard in Resources */,
+				432EE91D1F218B9600E3D5BF /* ADLoginView.xib in Resources */,
+				432EE8FF1F21694E00E3D5BF /* Assets.xcassets in Resources */,
+				432EE92D1F22383800E3D5BF /* ADSignupView.xib in Resources */,
+				432EE8FD1F21694E00E3D5BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F7F46A58B1BBF67EF3F0F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DFA5F32D50CABF5CABEA968 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppDuplicator2/Pods-AppDuplicator2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD7C60D6861704E10A60397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppDuplicator2/Pods-AppDuplicator2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432EE8F01F21694E00E3D5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432EE9151F21824B00E3D5BF /* ADTheme.swift in Sources */,
+				432EE9121F217B7100E3D5BF /* ADSideMenuViewController.swift in Sources */,
+				432EE9331F22551800E3D5BF /* ADHelper.swift in Sources */,
+				432EE8FA1F21694E00E3D5BF /* ViewController.swift in Sources */,
+				434C78081F22C89A00A52107 /* CAConstraintHelper.m in Sources */,
+				432EE92C1F22383800E3D5BF /* ADSignupView.swift in Sources */,
+				432EE8F81F21694E00E3D5BF /* AppDelegate.swift in Sources */,
+				432EE9181F2189FF00E3D5BF /* ADLaunchViewController.swift in Sources */,
+				432EE9281F219AB300E3D5BF /* iCarousel.m in Sources */,
+				432EE91B1F218B8800E3D5BF /* ADLoginView.swift in Sources */,
+				43FD6C711F2E5D520003512B /* ADSignupViewController.swift in Sources */,
+				432EE92F1F22462D00E3D5BF /* ADTextFieldCell.swift in Sources */,
+				432EE9351F22552900E3D5BF /* ADTextHelper.swift in Sources */,
+				43FD6C731F2E5D730003512B /* ADLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		432EE8FB1F21694E00E3D5BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432EE8FC1F21694E00E3D5BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432EE9001F21694E00E3D5BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432EE9011F21694E00E3D5BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432EE9041F21694E00E3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432EE9051F21694E00E3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432EE9071F21694E00E3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3C0D0D8834F677EF5672B1 /* Pods-AppDuplicator2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4XPY84P8QQ;
+				INFOPLIST_FILE = AppDuplicator2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.AppDuplicator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppDuplicator2/iCarousel/AppDuplicator2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		432EE9081F21694E00E3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE0D40D3E9C85C11FD5E815 /* Pods-AppDuplicator2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4XPY84P8QQ;
+				INFOPLIST_FILE = AppDuplicator2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.AppDuplicator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppDuplicator2/iCarousel/AppDuplicator2-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432EE8EF1F21694E00E3D5BF /* Build configuration list for PBXProject "AppDuplicator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432EE9041F21694E00E3D5BF /* Debug */,
+				432EE9051F21694E00E3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432EE9061F21694E00E3D5BF /* Build configuration list for PBXNativeTarget "AppDuplicator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432EE9071F21694E00E3D5BF /* Debug */,
+				432EE9081F21694E00E3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432EE8EC1F21694E00E3D5BF /* Project object */;
+}

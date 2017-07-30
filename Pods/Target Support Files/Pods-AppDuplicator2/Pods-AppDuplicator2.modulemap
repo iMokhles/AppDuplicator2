@@ -1,0 +1,6 @@
+framework module Pods_AppDuplicator2 {
+  umbrella header "Pods-AppDuplicator2-umbrella.h"
+
+  export *
+  module * { export * }
+}

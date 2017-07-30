@@ -1,0 +1,56 @@
+PODS:
+  - Anima (0.5.1)
+  - Colours/Swift (5.13.0)
+  - DGRunkeeperSwitch (1.1.4)
+  - ElValidator (1.1.2)
+  - InteractiveSideMenu (2.0)
+  - Letters (1.0.2)
+  - LGButton (1.0.0)
+  - Navigation-stack (1.0.0)
+  - NVActivityIndicatorView (3.6.1)
+  - QuickRippleButton (0.0.1)
+  - Sparrow/Core (1.1.0)
+  - Sparrow/Modules/RequestPermission (1.1.0):
+    - Sparrow/Core
+  - TGLParallaxCarousel (0.2.1)
+
+DEPENDENCIES:
+  - Anima
+  - Colours/Swift
+  - DGRunkeeperSwitch (~> 1.1.4)
+  - ElValidator
+  - InteractiveSideMenu
+  - Letters
+  - LGButton
+  - Navigation-stack
+  - NVActivityIndicatorView
+  - QuickRippleButton
+  - Sparrow/Modules/RequestPermission (from `https://github.com/IvanVorobei/Sparrow.git`)
+  - TGLParallaxCarousel
+
+EXTERNAL SOURCES:
+  Sparrow:
+    :git: https://github.com/IvanVorobei/Sparrow.git
+
+CHECKOUT OPTIONS:
+  Sparrow:
+    :commit: 7415a10e150d6344a10b11572d0d85f3df83319c
+    :git: https://github.com/IvanVorobei/Sparrow.git
+
+SPEC CHECKSUMS:
+  Anima: 191b0ce6c0010b291df8f13b769fe97f9b0aed3f
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  DGRunkeeperSwitch: cc237936f42237307f5e212e18136a27bf907bf1
+  ElValidator: ee1cc9daba7bc816691d717e29bd528bc6eff967
+  InteractiveSideMenu: 337f6d95a3f6543c517a888893531430e18553b3
+  Letters: 5cfa7075f0d15083ea24365186ffa848ea858293
+  LGButton: c3313e9a6e107c7159468e2ba2082391469c6368
+  Navigation-stack: 85ac0a7bd4002e7888c528d8817f10ffe2c225da
+  NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
+  QuickRippleButton: bb0de9a85ce0987a57300b2cafa87a4b42eac8b9
+  Sparrow: 86b8f0d7598dc52ff2b06bb1df05feb297d1821f
+  TGLParallaxCarousel: 7736edf9e26a3f08f32d0a24fcb0c93edc8253ad
+
+PODFILE CHECKSUM: f900fa7e73f915926c31a6daeaed9782c004b62f
+
+COCOAPODS: 1.2.0

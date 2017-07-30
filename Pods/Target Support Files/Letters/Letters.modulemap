@@ -1,0 +1,6 @@
+framework module Letters {
+  umbrella header "Letters-umbrella.h"
+
+  export *
+  module * { export * }
+}

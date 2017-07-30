@@ -1,0 +1,55 @@
+{
+  "name": "Sparrow",
+  "version": "1.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "A library for simplify iOS programming",
+  "homepage": "https://github.com/IvanVorobei/Sparrow",
+  "authors": {
+    "Ivan Vorobei": "hello@ivanvorobei.by"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/IvanVorobei/Sparrow.git",
+    "tag": "1.1.0"
+  },
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "sparrow/**/*.swift"
+    },
+    {
+      "name": "LaunchAnimation",
+      "source_files": "sparrow/launch/animation/**/*.swift"
+    },
+    {
+      "name": "Modules",
+      "source_files": "sparrow/**/*.swift",
+      "subspecs": [
+        {
+          "name": "RequestPermission",
+          "dependencies": {
+            "Sparrow/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "RateApp",
+          "dependencies": {
+            "Sparrow/Core": [
+
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

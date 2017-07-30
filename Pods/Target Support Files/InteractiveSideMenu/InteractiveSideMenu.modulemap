@@ -1,0 +1,6 @@
+framework module InteractiveSideMenu {
+  umbrella header "InteractiveSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

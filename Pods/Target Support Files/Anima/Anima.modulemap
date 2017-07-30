@@ -1,0 +1,6 @@
+framework module Anima {
+  umbrella header "Anima-umbrella.h"
+
+  export *
+  module * { export * }
+}
