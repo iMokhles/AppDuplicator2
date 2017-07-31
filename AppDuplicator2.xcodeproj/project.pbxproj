@@ -15,18 +15,15 @@
 		432EE9121F217B7100E3D5BF /* ADSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9111F217B7100E3D5BF /* ADSideMenuViewController.swift */; };
 		432EE9151F21824B00E3D5BF /* ADTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9141F21824B00E3D5BF /* ADTheme.swift */; };
 		432EE9181F2189FF00E3D5BF /* ADLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9171F2189FF00E3D5BF /* ADLaunchViewController.swift */; };
-		432EE91B1F218B8800E3D5BF /* ADLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE91A1F218B8800E3D5BF /* ADLoginView.swift */; };
-		432EE91D1F218B9600E3D5BF /* ADLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE91C1F218B9600E3D5BF /* ADLoginView.xib */; };
 		432EE9281F219AB300E3D5BF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9271F219AB300E3D5BF /* iCarousel.m */; };
-		432EE92C1F22383800E3D5BF /* ADSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE92A1F22383800E3D5BF /* ADSignupView.swift */; };
-		432EE92D1F22383800E3D5BF /* ADSignupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE92B1F22383800E3D5BF /* ADSignupView.xib */; };
 		432EE92F1F22462D00E3D5BF /* ADTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE92E1F22462D00E3D5BF /* ADTextFieldCell.swift */; };
-		432EE9311F22464000E3D5BF /* ADTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EE9301F22464000E3D5BF /* ADTextFieldCell.xib */; };
 		432EE9331F22551800E3D5BF /* ADHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9321F22551800E3D5BF /* ADHelper.swift */; };
 		432EE9351F22552900E3D5BF /* ADTextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EE9341F22552900E3D5BF /* ADTextHelper.swift */; };
 		434C78081F22C89A00A52107 /* CAConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 434C78071F22C89A00A52107 /* CAConstraintHelper.m */; };
 		43FD6C711F2E5D520003512B /* ADSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD6C701F2E5D520003512B /* ADSignupViewController.swift */; };
 		43FD6C731F2E5D730003512B /* ADLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD6C721F2E5D730003512B /* ADLoginViewController.swift */; };
+		43FD6C761F2EB5200003512B /* ADNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD6C751F2EB5200003512B /* ADNavigationViewController.swift */; };
+		43FD6C781F2EB5510003512B /* ADInteractivePopRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FD6C771F2EB5510003512B /* ADInteractivePopRecognizer.swift */; };
 		F035C5B646559B04727CEF50 /* Pods_AppDuplicator2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219DD7A2C0CF24B440AF1BC7 /* Pods_AppDuplicator2.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,21 +39,18 @@
 		432EE9111F217B7100E3D5BF /* ADSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSideMenuViewController.swift; sourceTree = "<group>"; };
 		432EE9141F21824B00E3D5BF /* ADTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTheme.swift; sourceTree = "<group>"; };
 		432EE9171F2189FF00E3D5BF /* ADLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLaunchViewController.swift; sourceTree = "<group>"; };
-		432EE91A1F218B8800E3D5BF /* ADLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLoginView.swift; sourceTree = "<group>"; };
-		432EE91C1F218B9600E3D5BF /* ADLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADLoginView.xib; sourceTree = "<group>"; };
 		432EE9251F219AB200E3D5BF /* AppDuplicator2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDuplicator2-Bridging-Header.h"; sourceTree = "<group>"; };
 		432EE9261F219AB300E3D5BF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		432EE9271F219AB300E3D5BF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
-		432EE92A1F22383800E3D5BF /* ADSignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSignupView.swift; sourceTree = "<group>"; };
-		432EE92B1F22383800E3D5BF /* ADSignupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADSignupView.xib; sourceTree = "<group>"; };
 		432EE92E1F22462D00E3D5BF /* ADTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTextFieldCell.swift; sourceTree = "<group>"; };
-		432EE9301F22464000E3D5BF /* ADTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADTextFieldCell.xib; sourceTree = "<group>"; };
 		432EE9321F22551800E3D5BF /* ADHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHelper.swift; sourceTree = "<group>"; };
 		432EE9341F22552900E3D5BF /* ADTextHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTextHelper.swift; sourceTree = "<group>"; };
 		434C78061F22C89A00A52107 /* CAConstraintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAConstraintHelper.h; sourceTree = "<group>"; };
 		434C78071F22C89A00A52107 /* CAConstraintHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAConstraintHelper.m; sourceTree = "<group>"; };
 		43FD6C701F2E5D520003512B /* ADSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSignupViewController.swift; sourceTree = "<group>"; };
 		43FD6C721F2E5D730003512B /* ADLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLoginViewController.swift; sourceTree = "<group>"; };
+		43FD6C751F2EB5200003512B /* ADNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNavigationViewController.swift; sourceTree = "<group>"; };
+		43FD6C771F2EB5510003512B /* ADInteractivePopRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADInteractivePopRecognizer.swift; sourceTree = "<group>"; };
 		5BE0D40D3E9C85C11FD5E815 /* Pods-AppDuplicator2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDuplicator2.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppDuplicator2/Pods-AppDuplicator2.release.xcconfig"; sourceTree = "<group>"; };
 		FC3C0D0D8834F677EF5672B1 /* Pods-AppDuplicator2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDuplicator2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppDuplicator2/Pods-AppDuplicator2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				432EE92E1F22462D00E3D5BF /* ADTextFieldCell.swift */,
-				432EE9301F22464000E3D5BF /* ADTextFieldCell.xib */,
 			);
 			name = UITableViewCells;
 			sourceTree = "<group>";
@@ -138,6 +131,7 @@
 		432EE90C1F21722400E3D5BF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				43FD6C741F2EB5040003512B /* NavigationVC */,
 				432EE9161F2189EB00E3D5BF /* LaunchVCs */,
 				432EE9101F217B5800E3D5BF /* SideMenu */,
 			);
@@ -189,8 +183,6 @@
 		432EE9191F218B7500E3D5BF /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
-				432EE91A1F218B8800E3D5BF /* ADLoginView.swift */,
-				432EE91C1F218B9600E3D5BF /* ADLoginView.xib */,
 				43FD6C721F2E5D730003512B /* ADLoginViewController.swift */,
 			);
 			name = LoginView;
@@ -218,8 +210,6 @@
 		432EE9291F22380000E3D5BF /* SignupView */ = {
 			isa = PBXGroup;
 			children = (
-				432EE92A1F22383800E3D5BF /* ADSignupView.swift */,
-				432EE92B1F22383800E3D5BF /* ADSignupView.xib */,
 				43FD6C701F2E5D520003512B /* ADSignupViewController.swift */,
 			);
 			name = SignupView;
@@ -232,6 +222,15 @@
 				434C78071F22C89A00A52107 /* CAConstraintHelper.m */,
 			);
 			name = CAConstraintHelper;
+			sourceTree = "<group>";
+		};
+		43FD6C741F2EB5040003512B /* NavigationVC */ = {
+			isa = PBXGroup;
+			children = (
+				43FD6C751F2EB5200003512B /* ADNavigationViewController.swift */,
+				43FD6C771F2EB5510003512B /* ADInteractivePopRecognizer.swift */,
+			);
+			name = NavigationVC;
 			sourceTree = "<group>";
 		};
 		A6EE8261DA121D323A90E5FA /* Pods */ = {
@@ -315,11 +314,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432EE9311F22464000E3D5BF /* ADTextFieldCell.xib in Resources */,
 				432EE9021F21694E00E3D5BF /* LaunchScreen.storyboard in Resources */,
-				432EE91D1F218B9600E3D5BF /* ADLoginView.xib in Resources */,
 				432EE8FF1F21694E00E3D5BF /* Assets.xcassets in Resources */,
-				432EE92D1F22383800E3D5BF /* ADSignupView.xib in Resources */,
 				432EE8FD1F21694E00E3D5BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,14 +380,14 @@
 				432EE9331F22551800E3D5BF /* ADHelper.swift in Sources */,
 				432EE8FA1F21694E00E3D5BF /* ViewController.swift in Sources */,
 				434C78081F22C89A00A52107 /* CAConstraintHelper.m in Sources */,
-				432EE92C1F22383800E3D5BF /* ADSignupView.swift in Sources */,
+				43FD6C761F2EB5200003512B /* ADNavigationViewController.swift in Sources */,
 				432EE8F81F21694E00E3D5BF /* AppDelegate.swift in Sources */,
 				432EE9181F2189FF00E3D5BF /* ADLaunchViewController.swift in Sources */,
 				432EE9281F219AB300E3D5BF /* iCarousel.m in Sources */,
-				432EE91B1F218B8800E3D5BF /* ADLoginView.swift in Sources */,
 				43FD6C711F2E5D520003512B /* ADSignupViewController.swift in Sources */,
 				432EE92F1F22462D00E3D5BF /* ADTextFieldCell.swift in Sources */,
 				432EE9351F22552900E3D5BF /* ADTextHelper.swift in Sources */,
+				43FD6C781F2EB5510003512B /* ADInteractivePopRecognizer.swift in Sources */,
 				43FD6C731F2E5D730003512B /* ADLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

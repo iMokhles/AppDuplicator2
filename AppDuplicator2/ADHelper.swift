@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class ADHelper : NSObject {
+    
+    class func getMainStoryboard() -> UIStoryboard {
+        return UIStoryboard.init(name: "Main", bundle: nil)
+    }
+    class func getViewControllerWithId(name: String) -> Any {
+        return ADHelper.getMainStoryboard().instantiateViewController(withIdentifier:name)
+    }
+}

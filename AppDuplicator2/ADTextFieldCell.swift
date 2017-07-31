@@ -20,7 +20,6 @@ enum fieldType : Int {
 
 class ADTextFieldCell: UITableViewCell, UITextFieldDelegate {
     
-    @IBOutlet var footerLineView: UIView!
     @IBOutlet var mainTextField: UITextField!
     @IBOutlet var validationImage: UIImageView!
     var cellFieldType: Int!
@@ -39,9 +38,11 @@ class ADTextFieldCell: UITableViewCell, UITextFieldDelegate {
         super.init(coder: aDecoder)
     }
     
-    func setup() {
+    func setup(placeholder: String) {
         self.validationImage.isHidden = true;
-        self.footerLineView.backgroundColor = ADTheme.getMainLineColor()
+        layer.cornerRadius = 20
+        clipsToBounds = true
+        mainTextField.placeholder = placeholder
     }
     func textFieldDidEndEditing(_ textField: UITextField) {
         switch cellFieldType {
@@ -72,18 +73,16 @@ class ADTextFieldCell: UITableViewCell, UITextFieldDelegate {
         default:
             // default
             break
-        }
+        }        
         if (isValid == false) {
             self.validationImage.image = UIImage(named: "delete_sign")
-            self.footerLineView.backgroundColor = UIColor.red
             self.validationImage.isHidden = false;
         } else {
             self.validationImage.image = UIImage(named: "checkmark")
-            self.footerLineView.backgroundColor = UIColor.moneyGreenColor()
             self.validationImage.isHidden = false;
         }
         if (textField.text == "") {
-            setup()
+            setup(placeholder: mainTextField.placeholder!)
         }
         if let callback = self.endEditing {
             callback (textField, self, isValid)
